@@ -1,0 +1,38 @@
+{
+  "name": "identity-wallet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@0xpolygonid/js-sdk": "1.7.1",
+    "@iden3/js-crypto": "1.0.3",
+    "@iden3/js-iden3-core": "1.2.1",
+    "@iden3/js-jsonld-merklization": "1.1.2",
+    "@iden3/js-jwz": "1.2.1",
+    "@iden3/js-merkletree": "1.1.2",
+    "@quasar/extras": "^1.16.9",
+    "@vueuse/core": "^10.7.2",
+    "axios": "^1.6.7",
+    "ffjavascript": "0.2.62",
+    "pinia": "^2.1.7",
+    "ethers": "6.8.0",
+    "quasar": "^2.14.3",
+    "rfc4648": "1.5.3",
+    "snarkjs": "0.7.2",
+    "vitepress": "^1.0.0-rc.40",
+    "vue": "^3.3.11",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.6.0",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "html5-qrcode": "^2.3.8",
+    "sass": "^1.33.0",
+    "vite": "^5.0.8"
+  }
+}
